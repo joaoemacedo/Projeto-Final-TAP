@@ -14,8 +14,8 @@ Este projeto é uma aplicação de gerenciamento de vendas e aluguéis de carros
 1. **Clone o Repositório**
 
    ```bash
-   git clone https://github.com/seu-usuario/projeto_final_tap.git
-   cd projeto_final_tap 
+   git clone https://github.com/joaoemacedo/Projeto-Final-TAP.git
+   cd Projeto-Final-TAP
    ```
 
 2. **Crie e Ative o Ambiente Virtual (opcional, mas recomendado)**
