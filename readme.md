@@ -20,22 +20,22 @@ Este projeto é uma aplicação de gerenciamento de vendas e aluguéis de carros
 
 2. **Crie e Ative o Ambiente Virtual (opcional, mas recomendado)**
 
-  ```bash
-  python -m venv venv
-  source venv/bin/activate  # no Windows use `venv\Scripts\activate`
-  ```
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # no Windows use `venv\Scripts\activate`
+    ```
 
 3. **Instale as Dependências**
 
-  ```bash
-  pip install -r requirements.txt
-  ```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 4. **Configuração do Banco de Dados**
 
-  Certifique-se de configurar corretamente o banco de dados no arquivo database.py.
+    Certifique-se de configurar corretamente o banco de dados no arquivo database.py.
 
 5. **Executar o Servidor**
 
-  ```bash
-  uvicorn app.main:app --reload #Isso iniciará o servidor FastAPI. Acesse http://localhost:8000 em seu navegador para interagir com a API.
+    ```bash
+    uvicorn app.main:app --reload #Isso iniciará o servidor FastAPI. Acesse http://localhost:8000 em seu navegador para interagir com a API.
