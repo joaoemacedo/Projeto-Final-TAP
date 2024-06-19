@@ -1,10 +1,13 @@
-# tests/test_crud.py
 import pytest
 from fastapi.testclient import TestClient
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from app import main, models, schemas
+from app.main import app, get_db
 from app.database import Base
+import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 SQLALCHEMY_DATABASE_URL = "sqlite:///./test.db"
 
@@ -22,8 +25,8 @@ def client():
         finally:
             db.close()
     
-    main.app.dependency_overrides[main.get_db] = override_get_db
-    with TestClient(main.app) as c:
+    app.dependency_overrides[get_db] = override_get_db
+    with TestClient(app) as c:
         yield c
 
 def test_create_car(client):
@@ -46,5 +49,3 @@ def test_read_car(client):
     assert car["model"] == "Corolla"
     assert car["year"] == 2020
     assert car["available"] is True
-
-# Implemente mais testes para as demais operações do CRUD e casos de erro
