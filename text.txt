@@ -1,0 +1,49 @@
+    {
+        "brand": "Focus",
+        "model": "Ford",
+        "year": 2015,
+        "placa": "ABC-1234",
+        "price": 50000.0
+    },
+    {
+        "brand": "Golf",
+        "model": "Volkswagen",
+        "year": 2018,
+        "placa": "DEF-5678",
+        "price": 60000.0
+    },
+    {
+        "brand": "Civic",
+        "model": "Honda",
+        "year": 2017,
+        "placa": "GHI-9012",
+        "price": 55000.0
+    },
+
+
+    {
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com"
+    },
+    {
+        "name": "Michael Johnson",
+        "email": "michael.johnson@example.com"
+    },
+    {
+        "name": "Emily Davis",
+        "email": "emily.davis@example.com"
+    }
+
+
+    {
+    "name": "Alice Smith",
+    "email": "alice.smith@example.com"
+    },
+    {
+    "name": "Bob Johnson",
+    "email": "bob.johnson@example.com"
+    },
+    {
+    "name": "Emily Brown",
+    "email": "emily.brown@example.com"
+    }
