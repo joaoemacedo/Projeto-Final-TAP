@@ -32,6 +32,6 @@ Este projeto é uma aplicação de gerenciamento de vendas e aluguéis de carros
 
 5. **Executar o Servidor**
 
-  uvicorn app.main:app --reload`
+  uvicorn app.main:app --reload
 
   Isso iniciará o servidor FastAPI. Acesse http://localhost:8000 em seu navegador para interagir com a API.`
