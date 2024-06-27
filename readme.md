@@ -44,7 +44,7 @@ Este projeto é uma aplicação de gerenciamento de vendas e aluguéis de carros
     ```
 
 
-
+6. **Diagrama de classes**
 
 ```mermaid
 classDiagram
