@@ -2,12 +2,14 @@
 
 Este projeto é uma aplicação de gerenciamento de vendas e aluguéis de carros, desenvolvida como parte do Projeto Final para a disciplina de Tópicos Avançados de Programação.
 
+##Versão Final -- Branch: final-version
+
 ## Tecnologias Utilizadas
 
 - Python 3.11
 - FastAPI
 - SQLAlchemy
-- SQLite (ou outro banco de dados SQL de sua escolha)
+- SQLite
 
 ## Instalação e Execução
 
