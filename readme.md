@@ -10,6 +10,9 @@ Este projeto é uma aplicação de gerenciamento de vendas e aluguéis de carros
 - FastAPI
 - SQLAlchemy
 - SQLite
+- Uvicorn
+- Pydantic
+- Pytest
 
 ## Instalação e Execução
 
