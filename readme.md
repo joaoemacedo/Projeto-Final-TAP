@@ -4,7 +4,7 @@ Este projeto é uma aplicação de gerenciamento de vendas e aluguéis de carros
 
 ##Versão Final -- Branch: final-version
 
-## Tecnologias Utilizadas
+## Tecnologias e Bibliotecas Utilizadas
 
 - Python 3.11
 - FastAPI
