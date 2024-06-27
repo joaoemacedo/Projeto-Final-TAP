@@ -1,8 +1,7 @@
-# Projeto Final - TAP
+# Projeto Final - TAP (Branch: final-version)
 
 Este projeto é uma aplicação de gerenciamento de vendas e aluguéis de carros, desenvolvida como parte do Projeto Final para a disciplina de Tópicos Avançados de Programação.
 
-##Versão Final -- Branch: final-version
 
 ## Tecnologias Utilizadas
 
